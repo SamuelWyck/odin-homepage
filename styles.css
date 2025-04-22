@@ -107,7 +107,32 @@ header h2 {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (640px <= width <= 1000px) {
+    .info-card {
+        transform: translateX(5vw);
+    }
+}
+
+@media screen and (500px < width <= 1000px) {
+    .info-card {
+        position: absolute;
+        left: 25%;
+        top: 65%;
+        z-index: 3;
+        margin-right: 3rem;
+    }
+
+    .img {
+        position: relative;
+        left: 0%;
+    }
+
+    .img-text {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
     header h2 {
         text-align: center;
     }
