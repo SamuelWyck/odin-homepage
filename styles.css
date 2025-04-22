@@ -181,6 +181,26 @@ main {
     padding: .5rem 1rem 0 1rem;
 }
 
+.purple {
+    background-color: #ba32cc;
+}
+
+.green {
+    background-color: #019901;
+}
+
+.pink {
+    background-color: #df78df;
+}
+
+.orange {
+    background-color: #eec50d;
+}
+
+.blue {
+    background-color: #24ceec;
+}
+
 
 @media screen and (640px <= width <= 1000px) {
     .info-card {
