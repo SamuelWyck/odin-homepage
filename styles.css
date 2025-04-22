@@ -26,6 +26,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 .backing {
@@ -74,8 +75,9 @@ header {
     box-shadow: 0px 0px 1px 0px black;
 }
 
-h2 {
+h2, h3 {
     font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
 }
 
 header h2 {
@@ -132,6 +134,10 @@ header h2 {
 
     .img-text {
         top: 0;
+    }
+
+    header {
+        margin-bottom: 10rem;
     }
 }
 
