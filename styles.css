@@ -201,6 +201,60 @@ main {
     background-color: #24ceec;
 }
 
+.footer-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links a {
+    max-width: 25px;
+}
+
+.footer-links img {
+    width: 100%;
+}
+
+.footer-img {
+    max-width: 400px;
+}
+
+.footer-img img {
+    width: 100%;
+}
+
+footer {
+    padding: 3rem;
+    background-color: var(--backing-color);
+    margin-top: 10rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+footer p {
+    max-width: 28ch;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.personal-info > p > img {
+    width: 25px;
+    filter: invert();
+}
+
+.phone-number, .email {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
 
 @media screen and (640px <= width <= 1000px) {
     .info-card {
@@ -232,6 +286,10 @@ main {
 
     .projects-title {
         justify-content: center;
+    }
+
+    .footer-img {
+        max-width: 200px;
     }
 }
 
