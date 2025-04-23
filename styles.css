@@ -91,6 +91,7 @@ header h2 {
     padding: 1rem;
     transform: perspective(500px);
     transition: transform .5s ease-in-out;
+    will-change: transform;
 }
 
 .info-card:hover {
@@ -146,6 +147,12 @@ main {
     min-height: 300px;
     box-shadow: 0px 0px 10px 0px gray;
     background-color: white;
+    transition: transform .5s ease-in-out;
+    will-change: transform;
+}
+
+.grid-item:hover {
+    transform: scale(1.2);
 }
 
 .project-pic {
