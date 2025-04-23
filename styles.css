@@ -89,6 +89,13 @@ header h2 {
     width: fit-content;
     box-shadow: 0px 0px 5px 0px gray;
     padding: 1rem;
+    transform: perspective(500px);
+    transition: transform .5s ease-in-out;
+}
+
+.info-card:hover {
+    transform: perspective(600px) translateZ(100px);
+    z-index: 4;
 }
 
 .info-card p {
@@ -259,6 +266,10 @@ footer p {
 @media screen and (640px <= width <= 1000px) {
     .info-card {
         transform: translateX(5vw);
+    }
+
+    .info-card:hover {
+        transform: translateX(5vw) perspective(600px) translateZ(100px);
     }
 }
 
